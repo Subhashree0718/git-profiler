@@ -1,0 +1,57 @@
+:root {
+  --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  /* Light Theme */
+  --bg-primary-light: #f5f8ff;
+  --bg-secondary-light: #fefefe;
+  --text-primary-light: #4b6a9b;
+  --text-secondary-light: #2b3442;
+  --accent-light: #0079ff;
+  --shadow-light: 0 16px 30px -10px rgba(70, 96, 187, 0.2);
+
+  /* Dark Theme */
+  --bg-primary-dark: #141d2f;
+  --bg-secondary-dark: #1e2a47;
+  --text-primary-dark: #ffffff;
+  --text-secondary-dark: #ffffff;
+  --accent-dark: #0079ff;
+  --shadow-dark: none;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: var(--bg-primary-light);
+  color: var(--text-secondary-light);
+}
+
+body.dark {
+  background-color: var(--bg-primary-dark);
+  color: var(--text-primary-dark);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 730px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

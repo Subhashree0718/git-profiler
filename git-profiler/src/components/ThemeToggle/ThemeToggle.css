@@ -1,0 +1,17 @@
+.theme-toggle-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+body.light .theme-toggle-button {
+  color: var(--text-primary-light);
+}
+
+body.dark .theme-toggle-button {
+  color: var(--text-primary-dark);
+}

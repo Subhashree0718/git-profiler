@@ -1,0 +1,49 @@
+.language-stats-container {
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+}
+
+body.light .language-stats-container {
+  background-color: var(--bg-secondary-light);
+  box-shadow: var(--shadow-light);
+}
+
+body.dark .language-stats-container {
+  background-color: var(--bg-secondary-dark);
+}
+
+.language-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.language-item {
+  flex-basis: calc(50% - 0.5rem); /* Two columns layout */
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.language-color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.language-name {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.language-percentage {
+  color: #6c757d;
+}
+
+body.dark .language-percentage {
+  color: #a3b3d3;
+}
