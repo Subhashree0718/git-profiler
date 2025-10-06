@@ -1,10 +1,10 @@
-# Git-Profiler 🚀
+# Git-Profiler
 
 A React-based GitHub Profile Viewer that lets you search for any GitHub user and see their profile, repositories, and language distribution in a clean, responsive UI. Built with React, Context API, Chart.js, and React Router.
 
 ---
 
-## 🔹 Features
+## Features
 
 - **ProfileCard:** Displays user avatar, name, bio, join date, and stats (repos, followers, following).  
 - **RepoList:** Shows top repositories with sorting by stars, forks, or creation date.  
@@ -16,7 +16,7 @@ A React-based GitHub Profile Viewer that lets you search for any GitHub user and
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Tailwind CSS  
 - **State Management:** Context API, Hooks (`useState`, `useEffect`, `useMemo`, `useCallback`)  
@@ -27,7 +27,7 @@ A React-based GitHub Profile Viewer that lets you search for any GitHub user and
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -46,7 +46,7 @@ src/
 ├── App.js
 └── index.js
 ```
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -61,5 +61,5 @@ npm install
 ```
 Start the app:
 ```npm start```
-Open in browser: http://localhost:3000
+Open in browser: ```http://localhost:3000```
 
